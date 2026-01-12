@@ -14,6 +14,7 @@
     padding-top: 20px;
 }
 .asosiy{
+    background-color: rgba(18, 21, 23, 1);
     font-family: "Geist", sans-serif;
     width: 100%;
     background-image:url(img/boxbackround4.png), url(img/boxbackround3.png),url(img/boxbackround2.png),url(img/boxbackround.png);
@@ -639,4 +640,150 @@ strong h3{
     cursor: pointer;
     text-decoration: underline;
     font-weight: 700;
+}
+@media screen and (max-width: 1205px) {
+    .list1{
+        height: 200vh;
+    }    
+    .ong-list1{
+        display: none;
+    }
+    .btn2{
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    strong{
+        display: none;
+    }
+    .list3{
+        height: 150vh;
+    }
+    .tepa{
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:1015px) {
+    .list3{
+        height: 250vh;
+        flex-direction: column;
+    }
+    .asosiy{
+        height: 6800px;
+        background-color: rgba(18, 21, 23, 1);
+    }
+}
+@media screen and (max-width:910px) {
+    .list5{
+        flex-direction: column;
+        height: 250vh;
+        gap: 20px;
+    }
+    .list5 >div{
+        width: 380px;
+        padding: 20px;
+    }    
+}
+@media screen and (max-width:790px) {
+    .list7 > div{
+        display: block; 
+    }
+    .list7{
+        width: 100%;
+        margin-left: 200px;
+        height: 200vh;
+    }
+    .asosiy-list7 div,
+    .past-list7 div{
+        justify-content: flex-end;
+        margin-left: 0;
+        width: 400px;
+        padding: 10px;
+        height: auto;
+    }
+    .asosiy{
+        height: 8000px;
+        background-color: rgba(18, 21, 23, 1);
+    }
+    .list8{
+        flex-direction: column;
+        height: 80vh;
+        margin-left: 0;
+        gap: 30px;
+        align-items: center;
+        width: 100%;
+        margin-top: 250px;
+    }
+    .list6{
+        margin-top: 400px;
+        flex-direction: column;
+    }
+    .ong-list8{
+        display: none;
+    }
+    .list9{
+        align-items: center;
+        gap: 25px;
+        flex-direction: column;
+    }
+    .list2{
+        height: 200vh;
+        flex-direction: column;
+    }
+    .list3{
+        display: none;
+    }
+    .list4{
+        height: 60vh;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        flex-direction: column;
+    }
+    .asosiy2{
+        height: 1000px;
+    }
+    .list5{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .tepa{
+        gap: 20px;
+    }
+    .tepa ul{
+        gap: 20px;
+    }
+    .chap-list1 h1,.chap-list1 h6{
+        font-size: 40px;
+    }
+    .chap-list1 h2, .chap-list1 h3{
+        width: 490px;
+    }
+    .btn2{
+        margin-left: 55px;
+    }
+    .asosiy{
+        background-color: rgba(18, 21, 23, 1);
+    }
+    .asosiy-list7 div,
+    .past-list7 div{
+        width: 100%;
+        margin: auto;
+        margin-left: 0;
+        border: 1px solid saddlebrown;
+    }
+    .list7{
+        width: 100%;
+    }
+    .asosiy-list7 div,
+    .past-list7 div{
+        margin-left: 0;
+        
+        width: 300px;
+        padding: 10px;
+        height: auto;
+    }
 }
